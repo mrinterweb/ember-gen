@@ -1,6 +1,8 @@
 ember-gen
 =========
 
+<strong>This is not ready yet</strong>
+
 TODO: Write a gem description
 
 ## Usage

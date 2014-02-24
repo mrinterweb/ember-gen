@@ -2,8 +2,8 @@
 require 'bundler/setup'
 require 'ember-gen/generate'
 
-generator = EmberGen::Generate.new(:model)
-generator.print_template
+# generator = EmberGen::Generate.new(:model)
+# generator.print_template
 
 AVAILABLE_GENERATORS = %w[component controller model resource route template view]
 unless AVAILABLE_GENERATORS.include?(ARGV[0])

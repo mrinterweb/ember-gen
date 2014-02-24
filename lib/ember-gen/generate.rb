@@ -1,3 +1,5 @@
+require 'erb'
+require 'tilt'
 
 module EmberGen
   class Generate
@@ -11,9 +13,14 @@ module EmberGen
     #             I don't really like this approach, as much be it is more agnostic
     TEMPLATE_PATH = File.join(File.dirname(__FILE__), 'templates')
 
-    def initialize(type)
+    def initialize(type, options={})
       @type = type
+      @options = options
       load_template
+    end
+
+    def render
+      # look at tilt for this
     end
 
     def print_template

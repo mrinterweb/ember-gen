@@ -1,9 +1,16 @@
 ember-gen
 =========
 
-<strong>This is not ready yet</strong>
+Right now, this has:
+* a very simple bin wrapper for ember-rails rake tasks.
+* rake tasks to help install newer versions of ember and jquery
 
-TODO: Write a gem description
+I'll write more documentation soon. It is just late, and I'm sleepy.
+
+Future Goals
+============
+
+I would like to add the functionality so that it could generate all javascript files and their associated tests. The templates should be able to js or coffeescript. Also, generated files should support the major dependency management libs like (common.js, AMD, ES6).
 
 ## Usage
 

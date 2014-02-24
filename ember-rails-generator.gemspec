@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'ember/rails/generator/version'
+require 'ember-gen/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "ember-rails-generator"
+  spec.name          = "ember-gen"
   spec.version       = Ember::Rails::Generator::VERSION
   spec.authors       = ["Sean McCleary"]
   spec.email         = ["seanmcc@gmail.com"]

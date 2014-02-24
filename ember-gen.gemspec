@@ -5,7 +5,7 @@ require 'ember-gen/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "ember-gen"
-  spec.version       = Ember::Rails::Generator::VERSION
+  spec.version       = EmberGen::VERSION
   spec.authors       = ["Sean McCleary"]
   spec.email         = ["seanmcc@gmail.com"]
   spec.description   = %q{generators for ember.js development}

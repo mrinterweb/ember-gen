@@ -1,7 +1,3 @@
-module Ember
-  module Rails
-    module Generator
-      VERSION = "0.0.1"
-    end
-  end
+module EmberGen
+  VERSION = "0.0.1"
 end

@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Ember::Rails::Generator::VERSION
   spec.authors       = ["Sean McCleary"]
   spec.email         = ["seanmcc@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{generators for ember.js development}
+  spec.summary       = %q{a better summary to come.}
   spec.homepage      = ""
   spec.license       = "MIT"
 

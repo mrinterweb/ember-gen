@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["seanmcc@gmail.com"]
   spec.description   = %q{generators for ember.js development}
   spec.summary       = %q{a better summary to come.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/mrinterweb/ember-gen"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

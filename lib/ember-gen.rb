@@ -1,12 +1,9 @@
 require "ember-gen/version"
 
 module EmberGen
-  class Rails < Rails::Railtie
-    rake_tasks do
-      Dir[File.join(File.dirname(__FILE__), 'tasks/*.rake')].each { |f| load f }
-    end
-  end
 end
+
+require 'ember-gen/railtie' if defined?(Rails)
 
 
 
